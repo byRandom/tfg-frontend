@@ -7,6 +7,7 @@ const Navbar = ({
   setNavbarVisible,
   update,
   setUpdate,
+  setStart,
 }) => {
   const onChange = (e) => {
     setSummonerName(e.target.value);
@@ -14,6 +15,7 @@ const Navbar = ({
   const onSubmit = (e) => {
     e.preventDefault();
     setUpdate(!update);
+    setStart(0);
   };
   useEffect(() => {}, [navBarVisible]);
   return (

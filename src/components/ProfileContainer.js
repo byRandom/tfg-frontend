@@ -49,8 +49,8 @@ const ProfileContainer = ({
   }, [summonerData]);
   return (
     <>
-      <div className="w-80 xl:w-96 border-2 rounded-lg border-gray-700 shadow-xl m-t-4 m-4 sm:m-auto xl:sticky">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="w-11/12 lg:w-72 xl:w-80 2xl:w-96 border-2 rounded-lg border-gray-700 shadow-xl lg:m-32 ml-5 m-6 float-left">
+        <div className="max-w rounded overflow-hidden shadow-lg">
           <img
             className="w-36 align-middle m-auto mb-0 rounded-full p-4"
             src={profilePicture}
@@ -66,7 +66,7 @@ const ProfileContainer = ({
               <img
                 src={leagueImage}
                 className="w-32 align-middle m-auto mt-0"
-                alt="League image"
+                alt="League"
               />
             ) : (
               <></>
