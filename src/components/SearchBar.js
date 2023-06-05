@@ -21,7 +21,7 @@ const SearchBar = ({
   return (
     <form className="container" onSubmit={(e) => handleSubmit(e)}>
       <input
-        className="form-control searchBar"
+        className="form-control h-10 w-2/3 sm:w-2/6"
         id="exampleDataList"
         placeholder="Escriba el nombre del jugador..."
         data-bs-theme="dark"
